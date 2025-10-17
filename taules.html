@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejemplo de tabla con colspan / rowspan</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ejemplo de Tabla HTML</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ciudad</th>
+        <th>Notas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana</td>
+        <td>23</td>
+        <td>Valencia</td>
+        <td>Bien</td>
+      </tr>
+      <tr>
+        <td>Bea</td>
+        <td>30</td>
+        <td>Madrid</td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Carlos</td>
+        <td>28</td>
+        <td>Sevilla</td>
+        <td>Muy bien</td>
+      </tr>
+      <tr>
+        <!-- la celda "Carlos" ocupa esta fila también por rowspan -->
+        <td>29</td>
+        <td>Bilbao</td>
+        <td colspan="2">Promedio</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

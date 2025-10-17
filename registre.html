@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <!-- Enllaços a l'inici de la pàgina -->
+<nav>
+  <a href="index.html">Inici</a> |
+  <a href="registre.html">Formulari de registre</a>
+</nav>
+
+  <title>Formulari de registre</title>
+</head>
+<body>
+<h1>Formulari de registre</h1>
+<form action="registre.html" method="post">
+
+  <!-- Nom i Cognoms sense placeholder -->
+  <label for="nom">Nom:</label> <input type="text" id="nom" name="nom" required>
+  <label for="cognoms">Cognoms:</label> <input type="text" id="cognoms" name="cognoms" required>
+
+  <!-- Gènere amb caixa a la dreta -->
+  <div>
+    <label>Home: <input type="radio" name="genere" value="home" required></label>
+    <label>Dona: <input type="radio" name="genere" value="dona"></label>
+    <label>Altres: <input type="radio" name="genere" value="altres"></label>
+  </div>
+
+  <!-- Email i Contrasenya -->
+  <div>
+    <label for="email">Email:</label> <input type="email" id="email" name="email" required placeholder="El teu mail">
+    <label for="contrasenya">Contrasenya:</label> <input type="password" id="contrasenya" name="contrasenya" required minlength="5" maxlength="10">
+  </div>
+
+  <!-- Data de naixement manual -->
+  <div>
+    <label for="data">Data de naixement:</label>
+    <input type="text" id="data" name="data" required placeholder="dd/mm/aaaa" pattern="\d{2}/\d{2}/\d{4}">
+  </div>
+
+  <!-- Termes i condicions amb caixa a la dreta -->
+  <div>
+    <label>Estic d'acord amb els termes i condicions <input type="checkbox" name="termes" required></label>
+  </div>
+
+  <!-- Botó Submit -->
+  <div>
+    <input type="submit" value="Submit">
+  </div>
+
+</form>
+</body>
+</html>

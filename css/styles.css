@@ -1,0 +1,113 @@
+body{
+    background-color: #e5f7eff1;
+}
+
+
+h1{
+    text-align: center;
+    color: #7e7c04;
+}
+
+table{
+    background-color: #ffffffff;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;    
+}
+
+th{
+    background-color: #533a0a;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.hora{
+    background-color: rgb(255, 198, 208);
+    color: rgb(22, 7, 80);
+    font-weight: bold;
+    width: 120px;
+}
+
+.patio{
+    background-color: #8d1178;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.servicios{
+    background-color: #0414fa;
+    color: rgb(252, 252, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.SOX{
+    background-color: #ff9900;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.sostenibilitat{
+    background-color: #0fd33a;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aplicacions{
+    background-color: #e0ff54;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projecte{
+    background-color: #00e1ff;
+    color: rgb(42, 9, 95);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.programació{
+    background-color: #cf0acfc5;
+    color: rgb(19, 73, 5);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ipo{
+    background-color: #75ac1d;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.seguretat{
+    background-color: #c01010c5;
+    color: rgb(219, 240, 243);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
